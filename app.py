@@ -1,4 +1,3 @@
-
 from flask import Flask, jsonify
 from pipedrive_api import get_deals, get_person, get_notes, add_note
 from message_generator import generate_email, detect_objection
